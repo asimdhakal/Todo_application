@@ -1,0 +1,18 @@
+2022-12-27 13:24:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss... (888)"; SQL statement:
+insert into todo_item (complete, description, id) values (?, ?, ?) [22001-214]
+2022-12-27 13:26:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss... (888)"; SQL statement:
+insert into todo_item (complete, description, id) values (?, ?, ?) [22001-214]
+2023-01-03 20:35:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'ddddddddddfadfasdddddddjkjdkfalkdjfakdjfakdjfjjjjjjdjdjdjdjdjdjdjdjdjdjddkkaaka... (517)"; SQL statement:
+update todo_item set complete=?, description=? where id=? [22001-214]
+2023-01-22 09:23:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'ytftuyftyt t7tryuyty truyryufytyu gyytyfuygvuytfvutyfvuytfut gjhgkjghjgjhgjgfjg... (374)"; SQL statement:
+update todo_item set complete=?, description=? where id=? [22001-214]
+2023-01-22 10:22:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'ytftuyftyt t7tryuyty truyryufytyu gyytyfuygvuytfvutyfvuytfut gjhgkjghjgjhgjgfjg... (336)"; SQL statement:
+update todo_item set abc=?, complete=?, description=? where id=? [22001-214]
+2023-02-11 18:26:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'asdfdfjakldjflkajsdklfjaljdkfjaklsdjfklajdkfjksdjflkajsdklfjakldjsflkjadlkjflka... (343)"; SQL statement:
+update todo_item set complete=?, description=? where id=? [22001-214]
